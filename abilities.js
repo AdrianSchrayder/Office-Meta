@@ -1015,21 +1015,21 @@ let BattleAbilities = {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpAPriority: 5,
+		onModifySpAPriority: 4,
 		onAllyModifySpA(spa) {
 			if (this.effectData.target.baseTemplate.baseSpecies !== 'Cherrim') return;
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpDPriority: 6,
+		onModifySpDPriority: 4,
 		onAllyModifySpD(spd) {
 			if (this.effectData.target.baseTemplate.baseSpecies !== 'Cherrim') return;
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpePriority: 7,
+		onModifySpePriority: 4,
 		onAllyModifySpe(spe) {
 			if (this.effectData.target.baseTemplate.baseSpecies !== 'Cherrim') return;
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
