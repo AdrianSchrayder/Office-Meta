@@ -3949,7 +3949,7 @@ let BattlePokedex = {
 		num: 235,
 		species: "Smeargle",
 		types: ["Normal"],
-		baseStats: {hp: 55, atk: 80, def: 55, spa: 00, spd: 55, spe: 80},
+		baseStats: {hp: 55, atk: 80, def: 55, spa: 80, spd: 55, spe: 80},
 		abilities: {0: "Own Tempo", 1: "Technician", H: "Moody"},
 		heightm: 1.2,
 		weightkg: 58,
