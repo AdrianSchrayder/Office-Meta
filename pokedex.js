@@ -5319,7 +5319,7 @@ let BattlePokedex = {
 		num: 327,
 		species: "Spinda",
 		types: ["Normal"],
-		baseStats: {hp: 60, atk: 60, def: 60, spa: 60, spd: 60, spe: 60},
+		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
 		abilities: {0: "Own Tempo", 1: "Tangled Feet", H: "Contrary"},
 		heightm: 1.1,
 		weightkg: 5,
