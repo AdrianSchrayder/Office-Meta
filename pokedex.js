@@ -7916,7 +7916,7 @@ let BattlePokedex = {
 		species: "Manaphy",
 		types: ["Water"],
 		gender: "N",
-		baseStats: {hp: 105, atk: 47, def: 100, spa: 100, spd: 100, spe: 100},
+		baseStats: {hp: 105, atk: 47, def: 113, spa: 114, spd: 113, spe: 109},
 		abilities: {0: "Hydration"},
 		heightm: 0.3,
 		weightkg: 1.4,
