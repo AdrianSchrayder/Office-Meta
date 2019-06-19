@@ -18636,13 +18636,13 @@ let BattleMovedex = {
 	"twister": {
 		num: 239,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 80,
 		category: "Special",
 		desc: "Has a 20% chance to flinch the target. Power doubles if the target is using Bounce, Fly, or Sky Drop, or is under the effect of Sky Drop.",
 		shortDesc: "20% chance to flinch the foe(s).",
 		id: "twister",
 		name: "Twister",
-		pp: 20,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
