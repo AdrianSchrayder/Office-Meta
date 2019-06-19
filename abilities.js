@@ -3365,7 +3365,7 @@ let BattleAbilities = {
 		num: 200,
 	},
 	"stench": {
-		shortDesc: "This Pokemon's attacks without a chance to flinch have a 10% chance to flinch.",
+		shortDesc: "This Pokemon's attacks without a chance to flinch have a 30% chance to flinch.",
 		onModifyMovePriority: -1,
 		onModifyMove(move) {
 			if (move.category !== "Status") {
@@ -3375,7 +3375,7 @@ let BattleAbilities = {
 					if (secondary.volatileStatus === 'flinch') return;
 				}
 				move.secondaries.push({
-					chance: 10,
+					chance: 30,
 					volatileStatus: 'flinch',
 				});
 			}
