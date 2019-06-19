@@ -9186,7 +9186,7 @@ let BattlePokedex = {
 		types: ["Ghost"],
 		baseStats: {hp: 120, atk: 30, def: 125, spa: 110, spd: 125, spe: 30},
 		abilities: {0: "Mummy", 1: "Cursed Body", H: "Slow Start"},
-		heightm: 1.7
+		heightm: 1.7,
 		weightkg: 76.5,
 		color: "Yellow",
 		prevo: "yamask",
