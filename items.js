@@ -4662,9 +4662,21 @@ let BattleItems = {
 		fling: {
 			basePower: 10,
 		},
+		onModifySpDPriority: 1,
+		onModifySpD(spd) {
+			return this.chainModify(1.5);
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def) {
+			return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa) {
+			return this.chainModify(0.5);
+		},
 		num: 325,
 		gen: 4,
-		desc: "Evolves Dusclops into Dusknoir when traded.",
+		desc: "Boosts Def and SpD by 50% and decreases SpA by 50%",
 	},
 	"redcard": {
 		id: "redcard",
