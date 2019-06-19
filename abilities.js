@@ -3140,9 +3140,9 @@ let BattleAbilities = {
 		num: 202,
 	},
 	"sniper": {
-		shortDesc: "This pokemon's distance moves have increased priority",
+		shortDesc: "This pokemon's ballistic moves have increased priority",
 		onModifyPriority(priority, pokemon, target, move) {
-			if (move.flags['distance']) return priority + 1;
+			if (move.flags['bullet']) return priority + 1;
 		},
 		id: "sniper",
 		name: "Sniper",
