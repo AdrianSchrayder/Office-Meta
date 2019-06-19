@@ -530,12 +530,12 @@ let BattleAbilities = {
 		num: 212,
 	},
 	"cursedbody": {
-		desc: "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled unless one of the attacker's moves is already disabled.",
-		shortDesc: "If this Pokemon is hit by an attack, there is a 30% chance that move gets disabled.",
+		desc: "If this Pokemon is hit by an attack, there is a 50% chance that move gets disabled unless one of the attacker's moves is already disabled.",
+		shortDesc: "If this Pokemon is hit by an attack, there is a 50% chance that move gets disabled.",
 		onAfterDamage(damage, target, source, move) {
 			if (!source || source.volatiles['disable']) return;
 			if (source !== target && move && move.effectType === 'Move' && !move.isFutureMove) {
-				if (this.randomChance(3, 10)) {
+				if (this.randomChance(5, 10)) {
 					source.addVolatile('disable', this.effectData.target);
 				}
 			}
