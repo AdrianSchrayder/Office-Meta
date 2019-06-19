@@ -4666,11 +4666,11 @@ let BattleItems = {
 		onModifySpD(spd) {
 			return this.chainModify(1.5);
 		},
-		onModifyDefPriority: 1,
+		onModifyDefPriority: 2,
 		onModifyDef(def) {
 			return this.chainModify(1.5);
 		},
-		onModifySpAPriority: 1,
+		onModifySpAPriority: 3,
 		onModifySpA(spa) {
 			return this.chainModify(0.5);
 		},
