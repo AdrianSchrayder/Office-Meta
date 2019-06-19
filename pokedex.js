@@ -5767,7 +5767,7 @@ let BattlePokedex = {
 		num: 357,
 		species: "Tropius",
 		types: ["Grass", "Flying"],
-		baseStats: {hp: 99, atk: 68, def: 83, spa: 72, spd: 87, spe: 51},
+		baseStats: {hp: 119, atk: 108, def: 83, spa: 102, spd: 87, spe: 71},
 		abilities: {0: "Chlorophyll", 1: "Solar Power", H: "Harvest"},
 		heightm: 2,
 		weightkg: 100,
