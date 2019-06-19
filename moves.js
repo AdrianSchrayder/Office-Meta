@@ -325,7 +325,7 @@ let BattleMovedex = {
 	},
 	"aircutter": {
 		num: 314,
-		accuracy: 95,
+		accuracy: 100,
 		basePower: 60,
 		category: "Special",
 		desc: "Has a higher chance for a critical hit.",
@@ -333,7 +333,7 @@ let BattleMovedex = {
 		id: "aircutter",
 		name: "Air Cutter",
 		pp: 25,
-		priority: 0,
+		priority: 1,
 		flags: {protect: 1, mirror: 1},
 		critRatio: 2,
 		secondary: null,
@@ -464,7 +464,7 @@ let BattleMovedex = {
 		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
 		id: "ancientpower",
 		name: "Ancient Power",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -11480,7 +11480,7 @@ let BattleMovedex = {
 		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
 		id: "ominouswind",
 		name: "Ominous Wind",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -13196,7 +13196,7 @@ let BattleMovedex = {
 	},
 	"razorleaf": {
 		num: 75,
-		accuracy: 95,
+		accuracy: 100,
 		basePower: 55,
 		category: "Physical",
 		desc: "Has a higher chance for a critical hit.",
@@ -13204,7 +13204,7 @@ let BattleMovedex = {
 		id: "razorleaf",
 		name: "Razor Leaf",
 		pp: 25,
-		priority: 0,
+		priority: 1,
 		flags: {protect: 1, mirror: 1},
 		critRatio: 2,
 		secondary: null,
@@ -15111,7 +15111,7 @@ let BattleMovedex = {
 		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
 		id: "silverwind",
 		name: "Silver Wind",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -16939,7 +16939,7 @@ let BattleMovedex = {
 	"strugglebug": {
 		num: 522,
 		accuracy: 100,
-		basePower: 50,
+		basePower: 60,
 		category: "Special",
 		desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
 		shortDesc: "100% chance to lower the foe(s) Sp. Atk by 1.",
