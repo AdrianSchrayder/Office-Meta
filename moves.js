@@ -11428,8 +11428,8 @@ let BattleMovedex = {
 	},
 	"octazooka": {
 		num: 190,
-		accuracy: 85,
-		basePower: 65,
+		accuracy: 100,
+		basePower: 80,
 		category: "Special",
 		desc: "Has a 50% chance to lower the target's accuracy by 1 stage.",
 		shortDesc: "50% chance to lower the target's accuracy by 1.",
