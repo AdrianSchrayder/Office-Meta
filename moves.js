@@ -3954,7 +3954,7 @@ let BattleMovedex = {
 	},
 	"dragonrush": {
 		num: 407,
-		accuracy: 75,
+		accuracy: 95,
 		basePower: 100,
 		category: "Physical",
 		desc: "Has a 20% chance to flinch the target. Damage doubles and no accuracy check is done if the target has used Minimize while active.",
