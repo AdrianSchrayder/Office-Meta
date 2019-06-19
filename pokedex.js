@@ -9900,7 +9900,7 @@ let BattlePokedex = {
 		num: 618,
 		species: "Stunfisk",
 		types: ["Ground", "Electric"],
-		baseStats: {hp: 109, atk: 66, def: 84, spa: 81, spd: 99, spe: 32},
+		baseStats: {hp: 109, atk: 66, def: 104, spa: 121, spd: 119, spe: 32},
 		abilities: {0: "Static", 1: "Limber", H: "Sand Veil"},
 		heightm: 0.7,
 		weightkg: 11,
