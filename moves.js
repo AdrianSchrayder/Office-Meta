@@ -7929,7 +7929,7 @@ let BattleMovedex = {
 	},
 	"highhorsepower": {
 		num: 667,
-		accuracy: 95,
+		accuracy: 115,
 		basePower: 95,
 		category: "Physical",
 		shortDesc: "No additional effect.",
