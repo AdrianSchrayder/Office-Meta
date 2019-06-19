@@ -12949,7 +12949,7 @@ let BattlePokedex = {
 		num: 779,
 		species: "Bruxish",
 		types: ["Water", "Psychic"],
-		baseStats: {hp: 68, atk: 105, def: 70, spa: 70, spd: 70, spe: 92},
+		baseStats: {hp: 88, atk: 125, def: 90, spa: 70, spd: 90, spe: 102},
 		abilities: {0: "Dazzling", 1: "Strong Jaw", H: "Wonder Skin"},
 		heightm: 0.9,
 		weightkg: 19,
