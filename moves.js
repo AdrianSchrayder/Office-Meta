@@ -7632,7 +7632,7 @@ let BattleMovedex = {
 	"hiddenpower": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "This move's type depends on the user's individual values (IVs), and can be any type but Fairy and Normal.",
 		shortDesc: "Varies in type based on the user's IVs.",
@@ -7653,7 +7653,7 @@ let BattleMovedex = {
 	"hiddenpowerbug": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7670,7 +7670,7 @@ let BattleMovedex = {
 	"hiddenpowerdark": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7687,7 +7687,7 @@ let BattleMovedex = {
 	"hiddenpowerdragon": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7704,7 +7704,7 @@ let BattleMovedex = {
 	"hiddenpowerelectric": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7722,7 +7722,7 @@ let BattleMovedex = {
 	"hiddenpowerfighting": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7740,7 +7740,7 @@ let BattleMovedex = {
 	"hiddenpowerfire": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7758,7 +7758,7 @@ let BattleMovedex = {
 	"hiddenpowerflying": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7775,7 +7775,7 @@ let BattleMovedex = {
 	"hiddenpowerghost": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7792,7 +7792,7 @@ let BattleMovedex = {
 	"hiddenpowergrass": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7810,7 +7810,7 @@ let BattleMovedex = {
 	"hiddenpowerground": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7827,7 +7827,7 @@ let BattleMovedex = {
 	"hiddenpowerice": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7845,7 +7845,7 @@ let BattleMovedex = {
 	"hiddenpowerpoison": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7862,7 +7862,7 @@ let BattleMovedex = {
 	"hiddenpowerpsychic": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7879,7 +7879,7 @@ let BattleMovedex = {
 	"hiddenpowerrock": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7896,7 +7896,7 @@ let BattleMovedex = {
 	"hiddenpowersteel": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -7913,7 +7913,7 @@ let BattleMovedex = {
 	"hiddenpowerwater": {
 		num: 237,
 		accuracy: 100,
-		basePower: 75,
+		basePower: 70,
 		category: "Special",
 		desc: "",
 		shortDesc: "",
@@ -10156,7 +10156,7 @@ let BattleMovedex = {
 	"megadrain": {
 		num: 72,
 		accuracy: 100,
-		basePower: 40,
+		basePower: 60,
 		category: "Special",
 		desc: "The user recovers 1/2 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		shortDesc: "User recovers 50% of the damage dealt.",
