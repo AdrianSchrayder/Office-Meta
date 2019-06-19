@@ -9184,9 +9184,9 @@ let BattlePokedex = {
 		num: 563,
 		species: "Cofagrigus",
 		types: ["Ghost"],
-		baseStats: {hp: 58, atk: 50, def: 145, spa: 95, spd: 105, spe: 30},
-		abilities: {0: "Mummy"},
-		heightm: 1.7,
+		baseStats: {hp: 120, atk: 30, def: 125, spa: 110, spd: 125, spe: 30},
+		abilities: {0: "Mummy", 1: "Cursed Body", H: "Slow Start"},
+		heightm: 1.7
 		weightkg: 76.5,
 		color: "Yellow",
 		prevo: "yamask",
