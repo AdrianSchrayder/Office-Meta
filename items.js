@@ -4662,17 +4662,17 @@ let BattleItems = {
 		fling: {
 			basePower: 10,
 		},
-		onModifySpDPriority: 1,
-		onModifySpD(spd) {
-			return this.chainModify(1.5);
-		},
-		onModifyDefPriority: 2,
+		onModifyDefPriority: 1,
 		onModifyDef(def) {
 			return this.chainModify(1.5);
 		},
-		onModifySpAPriority: 3,
+		onModifySpAPriority: 2,
 		onModifySpA(spa) {
 			return this.chainModify(0.5);
+		},
+		onModifySpDPriority: 3,
+		onModifySpD(spd) {
+			return this.chainModify(1.5);
 		},
 		num: 325,
 		gen: 4,
