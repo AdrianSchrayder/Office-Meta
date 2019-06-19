@@ -2976,7 +2976,7 @@ let BattlePokedex = {
 		species: "Ledian",
 		types: ["Bug", "Flying"],
 		baseStats: {hp: 55, atk: 135, def: 50, spa: 55, spd: 110, spe: 115},
-		abilities: {0: "Swarm", 1: "Early Bird", H: "Iron Fist"},
+		abilities: {0: "Swarm", 1: "Honey Gather", H: "Iron Fist"},
 		heightm: 1.4,
 		weightkg: 35.6,
 		color: "Red",
