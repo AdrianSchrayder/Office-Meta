@@ -17386,7 +17386,7 @@ let BattleMovedex = {
 	"swift": {
 		num: 129,
 		accuracy: true,
-		basePower: 60,
+		basePower: 80,
 		category: "Special",
 		desc: "This move does not check accuracy.",
 		shortDesc: "This move does not check accuracy. Hits foes.",
@@ -17397,7 +17397,7 @@ let BattleMovedex = {
 		flags: {protect: 1, mirror: 1},
 		secondary: null,
 		target: "allAdjacentFoes",
-		type: "Normal",
+		type: "Fighting",
 		zMovePower: 120,
 		contestType: "Cool",
 	},
