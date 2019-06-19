@@ -1017,22 +1017,22 @@ let BattleAbilities = {
 				}
 			}
 		},
-		onModifySpe(atk) {
+		onModifyAtk(atk) {
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpe(def) {
+		onModifyDef(def) {
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpe(spa) {
+		onModifySpA(spa) {
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
 		},
-		onModifySpe(spd) {
+		onModifySpD(spd) {
 			if (this.field.isWeather(['sunnyday', 'desolateland'])) {
 				return this.chainModify(1.5);
 			}
