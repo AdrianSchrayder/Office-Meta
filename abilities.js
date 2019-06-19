@@ -1408,7 +1408,8 @@ let BattleAbilities = {
 			if (effect && effect.effectType === 'Move' && effect.id !== 'confused') {
 				this.boost({spe: 1});
 			}
-		},: "hustle",
+		},
+		id: "hustle",
 		name: "Hustle",
 		rating: 3.5,
 		num: 55,
