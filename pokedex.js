@@ -3795,7 +3795,7 @@ let BattlePokedex = {
 		num: 224,
 		species: "Octillery",
 		types: ["Water"],
-		baseStats: {hp: 75, atk: 105, def: 75, spa: 105, spd: 75, spe: 45},
+		baseStats: {hp: 85, atk: 105, def: 90, spa: 105, spd: 90, spe: 45},
 		abilities: {0: "Suction Cups", 1: "Sniper", H: "Moody"},
 		heightm: 0.9,
 		weightkg: 28.5,
