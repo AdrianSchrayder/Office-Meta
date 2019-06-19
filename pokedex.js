@@ -12201,7 +12201,7 @@ let BattlePokedex = {
 		num: 752,
 		species: "Araquanid",
 		types: ["Water", "Bug"],
-		baseStats: {hp: 68, atk: 70, def: 92, spa: 50, spd: 132, spe: 42},
+		baseStats: {hp: 98, atk: 90, def: 92, spa: 90, spd: 132, spe: 42},
 		abilities: {0: "Water Bubble", H: "Water Absorb"},
 		heightm: 1.8,
 		weightkg: 82,
