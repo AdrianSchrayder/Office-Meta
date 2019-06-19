@@ -10881,7 +10881,7 @@ let BattleMovedex = {
 		id: "moonlight",
 		isViable: true,
 		name: "Moonlight",
-		pp: 5,
+		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onHit(pokemon) {
