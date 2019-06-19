@@ -7917,7 +7917,7 @@ let BattlePokedex = {
 		types: ["Water"],
 		gender: "N",
 		baseStats: {hp: 105, atk: 47, def: 113, spa: 114, spd: 113, spe: 109},
-		abilities: {0: "Hydration"},
+		abilities: {0: "Drizzle"},
 		heightm: 0.3,
 		weightkg: 1.4,
 		color: "Blue",
