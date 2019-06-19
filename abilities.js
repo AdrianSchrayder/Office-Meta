@@ -3140,12 +3140,9 @@ let BattleAbilities = {
 		num: 202,
 	},
 	"sniper": {
-		shortDesc: "If this Pokemon strikes with a critical hit, the damage is multiplied by 1.5.",
-		onModifyDamage(damage, source, target, move) {
-			if (target.getMoveHitData(move).crit) {
-				this.debug('Sniper boost');
-				return this.chainModify(1.5);
-			}
+		shortDesc: "This pokemon's distance moves have increased priority",
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move.flags['distance']) return priority + 1;
 		},
 		id: "sniper",
 		name: "Sniper",
