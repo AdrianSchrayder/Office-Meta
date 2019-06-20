@@ -5081,7 +5081,7 @@ let BattlePokedex = {
 		formeLetter: "M",
 		types: ["Electric"],
 		baseStats: {hp: 70, atk: 75, def: 80, spa: 135, spd: 80, spe: 135},
-		abilities: {0: "Intimidate"},
+		abilities: {0: "Regenerator"},
 		heightm: 1.8,
 		weightkg: 44,
 		color: "Yellow",
