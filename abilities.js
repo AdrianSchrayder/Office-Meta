@@ -1050,16 +1050,30 @@ let BattleAbilities = {
 	"flowerveil": {
 		desc: "Grass-type Pokemon on this Pokemon's side cannot have their stat stages lowered by other Pokemon or have a major status condition inflicted on them by other Pokemon.",
 		shortDesc: "This side's Grass types can't have stats lowered or status inflicted by other Pokemon.",
-		onModifyMovePriority: -1,
-		onModifyMove(move, pokemon) {
-			if (move.type === 'Normal' && !['judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'weatherball'].includes(move.id) && !(move.isZ && move.category !== 'Status')) {
-				move.type = 'Grass';
-				move.flowerveilBoosted = true;
+		onBoost(boost, target, source, effect) {
+			if (source && target === source) return;
+			let showMsg = false;
+			for (let i in boost) {
+				// @ts-ignore
+				if (boost[i] < 0) {
+					// @ts-ignore
+					delete boost[i];
+					showMsg = true;
+				}
 			}
+			if (showMsg && !effect.secondaries) this.add("-fail", target, "unboost", "[from] ability: Clear Body", "[of] " + target);
 		},
-		onBasePowerPriority: 8,
-		onBasePower(basePower, pokemon, target, move) {
-			if (move.flowerveilBoosted) return this.chainModify(1.5);
+		onSetStatus(status, target, source, effect) {
+			if (target.template.speciesid !== 'miniormeteor' || target.transformed) return;
+			if (!effect || !effect.status) return false;
+			this.add('-immune', target, '[from] ability: Shields Down');
+			return false;
+		},
+		onTryAddVolatile(status, target) {
+			if (target.template.speciesid !== 'miniormeteor' || target.transformed) return;
+			if (status.id !== 'yawn') return;
+			this.add('-immune', target, '[from] ability: Shields Down');
+			return null;
 		},
 		id: "flowerveil",
 		name: "Flower Veil",
