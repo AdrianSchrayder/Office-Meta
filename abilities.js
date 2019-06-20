@@ -3144,9 +3144,6 @@ let BattleAbilities = {
 	},
 	"slowstart": {
 		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
-		onStart(target, source) {
-				this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
-		},
 		id: "slowstart",
 		name: "Slow Start",
 		rating: -2,
