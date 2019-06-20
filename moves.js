@@ -384,28 +384,19 @@ let BattleMovedex = {
 	},
 	"allyswitch": {
 		num: 502,
-		accuracy: true,
-		basePower: 0,
-		category: "Status",
-		desc: "The user swaps positions with its ally. Fails if the user is the only Pokemon on its side.",
-		shortDesc: "The user swaps positions with its ally.",
+		basePower: 70,
+		category: "Special",
+		desc: "If this move is successful and the user has not fainted, the user switches out even if it is trapped and is replaced immediately by a selected party member. The user does not switch out if there are no unfainted party members, or if the target switched out using an Eject Button or through the effect of the Emergency Exit or Wimp Out Abilities.",
+		shortDesc: "User switches out after damaging the target.",
 		id: "allyswitch",
+		isViable: true,
 		name: "Ally Switch",
-		pp: 15,
-		priority: 2,
-		flags: {},
-		onTryHit(source) {
-			if (source.side.active.length === 1) return false;
-			if (source.side.active.length === 3 && source.position === 1) return false;
-		},
-		onHit(pokemon) {
-			let newPosition = (pokemon.position === 0 ? pokemon.side.active.length - 1 : 0);
-			if (!pokemon.side.active[newPosition]) return false;
-			if (pokemon.side.active[newPosition].fainted) return false;
-			this.swapPosition(pokemon, newPosition, '[from] move: Ally Switch');
-		},
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfSwitch: true,
 		secondary: null,
-		target: "self",
+		target: "normal",
 		type: "Psychic",
 		zMoveBoost: {spe: 2},
 		contestType: "Clever",
