@@ -3144,12 +3144,8 @@ let BattleAbilities = {
 	},
 	"slowstart": {
 		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
-		onStart(source) {
-			for (const action of this.queue) {
-				if (action.choice === 'runPrimal' && action.pokemon === source && source.template.speciesid === 'groudon') return;
-				if (action.choice !== 'runSwitch' && action.choice !== 'runPrimal') break;
-			}
-			this.field.setPsuedoWeather('trickroom');
+		onStart(target, source) {
+				this.add('-fieldstart', 'move: Trick Room', '[of] ' + source);
 		},
 		id: "slowstart",
 		name: "Slow Start",
