@@ -15794,7 +15794,7 @@ let BattleMovedex = {
 	"snarl": {
 		num: 555,
 		accuracy: 95,
-		basePower: 55,
+		basePower: 85,
 		category: "Special",
 		desc: "Has a 100% chance to lower the target's Special Attack by 1 stage.",
 		shortDesc: "100% chance to lower the foe(s) Sp. Atk by 1.",
