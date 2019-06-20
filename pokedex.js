@@ -10703,7 +10703,7 @@ let BattlePokedex = {
 		num: 666,
 		species: "Vivillon",
 		types: ["Bug", "Flying"],
-		baseStats: {hp: 90, atk: 52, def: 80, spa: 130, spd: 80, spe: 80},
+		baseStats: {hp: 90, atk: 52, def: 80, spa: 132, spd: 80, spe: 130},
 		abilities: {0: "Shield Dust", 1: "Compound Eyes", H: "Dazzling"},
 		heightm: 1.2,
 		weightkg: 17,
