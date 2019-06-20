@@ -8936,7 +8936,7 @@ let BattleMovedex = {
 		secondary: {
 			chance: 10,
 			boosts: {
-				spd: -1,
+				def: -1,
 			},
 		},
 		target: "normal",
