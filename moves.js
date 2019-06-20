@@ -5645,6 +5645,7 @@ let BattleMovedex = {
 		boosts: {
 			def: 2,
 			spd: 2,
+			spe: -1,
 		},
 		secondary: null,
 		secondary: null,
