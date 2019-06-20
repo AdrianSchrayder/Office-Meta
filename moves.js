@@ -5642,20 +5642,11 @@ let BattleMovedex = {
 		pp: 10,
 		priority: 0,
 		flags: {distance: 1},
-		onHitField(target, source, move) {
-			let targets = [];
-			for (const pokemon of this.getAllActive()) {
-				if (pokemon.hasType('Grass')) {
-					// This move affects every Grass-type Pokemon in play.
-					targets.push(pokemon);
-				}
-			}
-			let success = false;
-			for (const target of targets) {
-				success = this.boost({def: 1}, target, source, move) || success;
-			}
-			return success;
+		boosts: {
+			def: 2,
+			spd: 2,
 		},
+		secondary: null,
 		secondary: null,
 		target: "all",
 		type: "Fairy",
