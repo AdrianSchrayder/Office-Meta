@@ -5064,7 +5064,7 @@ let BattlePokedex = {
 		species: "Manectric",
 		types: ["Electric"],
 		baseStats: {hp: 70, atk: 75, def: 60, spa: 105, spd: 60, spe: 105},
-		abilities: {0: "Static", 1: "Lightning Rod", H: "Minus"},
+		abilities: {0: "Static", 1: "Lightning Rod", H: "Electric Surge"},
 		heightm: 1.5,
 		weightkg: 40.2,
 		color: "Yellow",
