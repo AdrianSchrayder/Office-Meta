@@ -428,12 +428,12 @@ let BattleItems = {
 			/**@type {{[k: string]: number}} */
 			let heals = {drain: 1, leechseed: 1, ingrain: 1, aquaring: 1, strengthsap: 1};
 			if (heals[effect.id]) {
-				return this.chainModify([0x14CC, 0x1000]);
+				return this.chainModify([0x1999, 0x1000]);
 			}
 		},
 		num: 296,
 		gen: 4,
-		desc: "Holder gains 1.3x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap.",
+		desc: "Holder gains 1.6x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap.",
 	},
 	"bindingband": {
 		id: "bindingband",
@@ -3710,7 +3710,7 @@ let BattleItems = {
 		onBasePowerPriority: 6,
 		onBasePower(basePower, user, target, move) {
 			if (move.category === 'Physical') {
-				return this.chainModify([0x1299, 0x1100]);
+				return this.chainModify([0x14CC, 0x1000]);
 			}
 		},
 		num: 266,
@@ -6130,7 +6130,7 @@ let BattleItems = {
 		onBasePowerPriority: 6,
 		onBasePower(basePower, user, target, move) {
 			if (move.category === 'Special') {
-				return this.chainModify([0x1299, 0x1100]);
+				return this.chainModify([0x14CC, 0x1000]);
 			}
 		},
 		num: 267,
