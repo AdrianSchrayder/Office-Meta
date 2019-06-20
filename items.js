@@ -3710,12 +3710,12 @@ let BattleItems = {
 		onBasePowerPriority: 6,
 		onBasePower(basePower, user, target, move) {
 			if (move.category === 'Physical') {
-				return this.chainModify([0x1199, 0x1000]);
+				return this.chainModify([0x1299, 0x1100]);
 			}
 		},
 		num: 266,
 		gen: 4,
-		desc: "Holder's physical attacks have 1.1x power.",
+		desc: "Holder's physical attacks have 1.2x power.",
 	},
 	"mysticwater": {
 		id: "mysticwater",
@@ -6130,12 +6130,12 @@ let BattleItems = {
 		onBasePowerPriority: 6,
 		onBasePower(basePower, user, target, move) {
 			if (move.category === 'Special') {
-				return this.chainModify([0x1199, 0x1000]);
+				return this.chainModify([0x1299, 0x1100]);
 			}
 		},
 		num: 267,
 		gen: 4,
-		desc: "Holder's special attacks have 1.1x power.",
+		desc: "Holder's special attacks have 1.2x power.",
 	},
 	"yacheberry": {
 		id: "yacheberry",
