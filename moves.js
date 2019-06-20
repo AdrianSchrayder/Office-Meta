@@ -508,8 +508,8 @@ let BattleMovedex = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		desc: "The user has 1/16 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
-		shortDesc: "User recovers 1/16 max HP per turn.",
+		desc: "The user has 1/8 of its maximum HP, rounded down, restored at the end of each turn while it remains active. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down. If the user uses Baton Pass, the replacement will receive the healing effect.",
+		shortDesc: "User recovers 1/8 max HP per turn.",
 		id: "aquaring",
 		name: "Aqua Ring",
 		pp: 20,
@@ -520,9 +520,9 @@ let BattleMovedex = {
 			onStart(pokemon) {
 				this.add('-start', pokemon, 'Aqua Ring');
 			},
-			onResidualOrder: 6,
+			onResidualOrder: 8,
 			onResidual(pokemon) {
-				this.heal(pokemon.maxhp / 16);
+				this.heal(pokemon.maxhp / 8);
 			},
 		},
 		secondary: null,
