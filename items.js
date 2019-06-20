@@ -5347,7 +5347,7 @@ let BattleItems = {
 		},
 		onAfterDamage(damage, target, source, move) {
 			if (move.type === 'Ice' && target.useItem()) {
-				this.boost({atk: 1});
+				this.boost({atk: 1, def: 1, spa: 1, spd: 1, spe: 1});
 			}
 		},
 		num: 649,
