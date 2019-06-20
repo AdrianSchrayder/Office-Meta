@@ -579,9 +579,12 @@ let BattleAbilities = {
 	},
 	"dancer": {
 		desc: "After another Pokemon uses a dance move, this Pokemon uses the same move. Moves used by this Ability cannot be copied again.",
-		shortDesc: "After another Pokemon uses a dance move, this Pokemon uses the same move.",
+		shortDesc: "After another Pokemon uses a dance move, this Pokemon uses the same move. Dances have priority.",
 		id: "dancer",
 		name: "Dancer",
+		onModifyPriority(priority, pokemon, target, move) {
+			if (move.flags['dance']) return priority + 1;
+		},
 		// implemented in runMove in scripts.js
 		rating: 2.5,
 		num: 216,
