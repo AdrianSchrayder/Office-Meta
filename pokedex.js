@@ -4564,7 +4564,7 @@ let BattlePokedex = {
 		num: 277,
 		species: "Swellow",
 		types: ["Normal", "Flying"],
-		baseStats: {hp: 60, atk: 85, def: 60, spa: 75, spd: 50, spe: 125},
+		baseStats: {hp: 60, atk: 85, def: 60, spa: 100, spd: 50, spe: 125},
 		abilities: {0: "Guts", H: "Scrappy"},
 		heightm: 0.7,
 		weightkg: 19.8,
