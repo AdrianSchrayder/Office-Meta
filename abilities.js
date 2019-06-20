@@ -1061,18 +1061,18 @@ let BattleAbilities = {
 					showMsg = true;
 				}
 			}
-			if (showMsg && !effect.secondaries) this.add("-fail", target, "unboost", "[from] ability: Clear Body", "[of] " + target);
+			if (showMsg && !effect.secondaries) this.add("-fail", target, "unboost", "[from] ability: Flower Veil", "[of] " + target);
 		},
 		onSetStatus(status, target, source, effect) {
 			if (target.template.speciesid === 'miniormeteor' || target.transformed) return;
 			if (!effect || !effect.status) return false;
-			this.add('-immune', target, '[from] ability: Shields Down');
+			this.add('-immune', target, '[from] ability: Flower Veil');
 			return false;
 		},
 		onTryAddVolatile(status, target) {
 			if (target.template.speciesid === 'miniormeteor' || target.transformed) return;
 			if (status.id !== 'yawn') return;
-			this.add('-immune', target, '[from] ability: Shields Down');
+			this.add('-immune', target, '[from] ability: Flower Veil');
 			return null;
 		},
 		id: "flowerveil",
