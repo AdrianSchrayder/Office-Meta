@@ -523,6 +523,7 @@ let BattleMovedex = {
 			onResidualOrder: 8,
 			onResidual(pokemon) {
 				this.heal(pokemon.maxhp / 8);
+				pokemon.cureStatus();
 			},
 		},
 		secondary: null,
