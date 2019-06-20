@@ -1030,6 +1030,12 @@ let BattleItems = {
 		fling: {
 			basePower: 100,
 		},
+		onModifySpePriority: 1,
+		onModifySpe(spe, pokemon) {
+			if (pokemon.baseTemplate.baseSpecies === 'Carracosta') {
+				return this.chainModify(2);
+			}
+		},
 		num: 572,
 		gen: 5,
 		desc: "Can be revived into Tirtouga.",
@@ -4132,6 +4138,12 @@ let BattleItems = {
 		id: "plumefossil",
 		name: "Plume Fossil",
 		spritenum: 339,
+		onModifySpDPriority: 1,
+		onModifySpD(spd, pokemon) {
+			if (pokemon.baseTemplate.baseSpecies === 'Archeops') {
+				return this.chainModify(2);
+			}
+		},
 		fling: {
 			basePower: 100,
 		},
