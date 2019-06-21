@@ -5968,11 +5968,10 @@ let BattleItems = {
 		},
 		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
-		if source.baseTemplate.species !== 'Maractus') return;
 			/**@type {{[k: string]: number}} */
 			let heals = {drain: 1, leechseed: 1, ingrain: 1, aquaring: 1, strengthsap: 1};
-			if (heals[effect.id]) {
-				return this.chainModify([0x2000, 0x1000]);
+			if (heals[effect.id] && source.baseTemplate.num === 556) {
+				return this.chainModify(2);
 			}
 		},
 		num: 181,
