@@ -4169,43 +4169,21 @@ let BattleMovedex = {
 	},
 	"echoedvoice": {
 		num: 497,
-		accuracy: 100,
-		basePower: 40,
-		basePowerCallback() {
-			if (this.field.pseudoWeather.echoedvoice) {
-				return 40 * this.field.pseudoWeather.echoedvoice.multiplier;
-			}
-			return 40;
-		},
+		accuracy: 75,
+		basePower: 100,
 		category: "Special",
 		desc: "For every consecutive turn that this move is used by at least one Pokemon, this move's power is multiplied by the number of turns to pass, but not more than 5.",
 		shortDesc: "Power increases when used on consecutive turns.",
 		id: "echoedvoice",
 		name: "Echoed Voice",
-		pp: 15,
+		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1, sound: 1, authentic: 1},
-		onTry() {
-			this.field.addPseudoWeather('echoedvoice');
-		},
-		effect: {
-			duration: 2,
-			onStart() {
-				this.effectData.multiplier = 1;
-			},
-			onRestart() {
-				if (this.effectData.duration !== 2) {
-					this.effectData.duration = 2;
-					if (this.effectData.multiplier < 5) {
-						this.effectData.multiplier++;
-					}
-				}
-			},
-		},
+		flags: {protect: 1, mirror: 1, sound: 1},
+		volatileStatus: 'partiallytrapped',
 		secondary: null,
 		target: "normal",
 		type: "Normal",
-		zMovePower: 100,
+		zMovePower: 180,
 		contestType: "Beautiful",
 	},
 	"eerieimpulse": {
