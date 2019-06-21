@@ -450,7 +450,7 @@ let BattlePokedex = {
 	arbok: {
 		num: 24,
 		species: "Arbok",
-		types: ["Poison"],
+		types: ["Poison", "Dragon"],
 		baseStats: {hp: 90, atk: 115, def: 79, spa: 65, spd: 89, spe: 100},
 		abilities: {0: "Intimidate", 1: "Shed Skin", H: "Unnerve"},
 		heightm: 3.5,
@@ -5622,7 +5622,7 @@ let BattlePokedex = {
 	milotic: {
 		num: 350,
 		species: "Milotic",
-		types: ["Water"],
+		types: ["Water", "Fairy"],
 		baseStats: {hp: 95, atk: 60, def: 79, spa: 100, spd: 125, spe: 81},
 		abilities: {0: "Marvel Scale", 1: "Competitive", H: "Cute Charm"},
 		heightm: 6.2,
