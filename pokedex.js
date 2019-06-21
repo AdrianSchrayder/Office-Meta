@@ -5355,8 +5355,8 @@ let BattlePokedex = {
 	flygon: {
 		num: 330,
 		species: "Flygon",
-		types: ["Ground", "Dragon"],
-		baseStats: {hp: 80, atk: 100, def: 80, spa: 80, spd: 80, spe: 100},
+		types: ["Bug", "Dragon"],
+		baseStats: {hp: 80, atk: 120, def: 80, spa: 120, spd: 80, spe: 120},
 		abilities: {0: "Levitate"},
 		heightm: 2,
 		weightkg: 82,
