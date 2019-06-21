@@ -2814,7 +2814,7 @@ let BattlePokedex = {
 	meganium: {
 		num: 154,
 		species: "Meganium",
-		types: ["Grass"],
+		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 122, def: 100, spa: 33, spd: 100, spe: 80},
 		abilities: {0: "Overgrow", H: "Leaf Guard"},
@@ -2949,8 +2949,8 @@ let BattlePokedex = {
 	noctowl: {
 		num: 164,
 		species: "Noctowl",
-		types: ["Normal", "Flying"],
-		baseStats: {hp: 100, atk: 50, def: 50, spa: 86, spd: 96, spe: 70},
+		types: ["Psychic", "Flying"],
+		baseStats: {hp: 130, atk: 50, def: 70, spa: 106, spd: 116, spe: 70},
 		abilities: {0: "Insomnia", 1: "Keen Eye", H: "Tinted Lens"},
 		heightm: 1.6,
 		weightkg: 40.8,
