@@ -2842,6 +2842,9 @@ let BattleAbilities = {
 	"sandrush": {
 		desc: "If Sandstorm is active, this Pokemon's Speed is doubled. This Pokemon takes no damage from Sandstorm.",
 		shortDesc: "If Sandstorm is active, this Pokemon's Speed is doubled; immunity to Sandstorm.",
+		onStart(source) {
+			this.field.setWeather('sandstorm');
+		},
 		onModifySpe(spe, pokemon) {
 			if (this.field.isWeather('sandstorm')) {
 				return this.chainModify(2);
