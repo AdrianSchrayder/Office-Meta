@@ -5962,17 +5962,22 @@ let BattleItems = {
 	"watmelberry": {
 		id: "watmelberry",
 		name: "Watmel Berry",
-		isUnreleased: true,
 		spritenum: 530,
-		isBerry: true,
-		naturalGift: {
-			basePower: 100,
-			type: "Fire",
+		fling: {
+			basePower: 10,
 		},
-		onEat: false,
+		onTryHealPriority: 1,
+		onTryHeal(damage, target, source, effect) {
+		if source.baseTemplate.species !== 'Maractus') return;
+			/**@type {{[k: string]: number}} */
+			let heals = {drain: 1, leechseed: 1, ingrain: 1, aquaring: 1, strengthsap: 1};
+			if (heals[effect.id]) {
+				return this.chainModify([0x2000, 0x1000]);
+			}
+		},
 		num: 181,
 		gen: 3,
-		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
+		desc: "If holder is maractus, recieve 2x healing from drain moves.",
 	},
 	"waveincense": {
 		id: "waveincense",
