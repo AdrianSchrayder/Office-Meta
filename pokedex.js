@@ -11015,7 +11015,7 @@ let BattlePokedex = {
 	aromatisse: {
 		num: 683,
 		species: "Aromatisse",
-		types: ["Fairy"],
+		types: ["Fairy", "Poison"],
 		baseStats: {hp: 101, atk: 72, def: 92, spa: 119, spd: 109, spe: 29},
 		abilities: {0: "Healer", H: "Aroma Veil"},
 		heightm: 0.8,
