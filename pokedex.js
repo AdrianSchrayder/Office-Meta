@@ -5960,9 +5960,9 @@ let BattlePokedex = {
 	luvdisc: {
 		num: 370,
 		species: "Luvdisc",
-		types: ["Water"],
+		types: ["Water", "Fairy"],
 		genderRatio: {M: 0.25, F: 0.75},
-		baseStats: {hp: 43, atk: 30, def: 55, spa: 40, spd: 65, spe: 97},
+		baseStats: {hp: 63, atk: 100, def: 65, spa: 110, spd: 75, spe: 117},
 		abilities: {0: "Swift Swim", H: "Hydration"},
 		heightm: 0.6,
 		weightkg: 8.7,
