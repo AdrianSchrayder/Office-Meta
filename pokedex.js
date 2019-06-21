@@ -10760,7 +10760,7 @@ let BattlePokedex = {
 		species: "Pyroar",
 		types: ["Fire", "Normal"],
 		genderRatio: {M: 0.125, F: 0.875},
-		baseStats: {hp: 86, atk: 68, def: 72, spa: 109, spd: 66, spe: 106},
+		baseStats: {hp: 86, atk: 68, def: 82, spa: 109, spd: 76, spe: 106},
 		abilities: {0: "Rivalry", 1: "Unnerve", H: "Moxie"},
 		heightm: 1.5,
 		weightkg: 81.5,
