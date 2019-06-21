@@ -19808,6 +19808,25 @@ let BattleMovedex = {
 		zMovePower: 190,
 		contestType: "Cute",
 	},
+	/* Office Meta Move Template
+	"move": {
+		num: -X,
+		accuracy: X,
+		basePower: X,
+		category: "Category",
+		shortDesc: "Description.",
+		id: "move",
+		name: "Move",
+		pp: X,
+		priority: X,
+		flags: {flag: 1, flag: 1, flag: 1},
+		secondary: null,
+		target: "normal/self/all",
+		type: "Type",
+		zMovePower: X,
+		contestType: "Type",
+	},
+	*/
 };
 
 exports.BattleMovedex = BattleMovedex;
