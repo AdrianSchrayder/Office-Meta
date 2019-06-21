@@ -4771,7 +4771,7 @@ let BattlePokedex = {
 		species: "Shedinja",
 		types: ["Bug", "Ghost"],
 		gender: "N",
-		baseStats: {hp: 1, atk: 90, def: 45, spa: 30, spd: 30, spe: 40},
+		baseStats: {hp: 1, atk: 170, def: 45, spa: 30, spd: 30, spe: 40},
 		maxHP: 1,
 		abilities: {0: "Wonder Guard"},
 		heightm: 0.8,
