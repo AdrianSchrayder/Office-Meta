@@ -2871,15 +2871,21 @@ let BattleAbilities = {
 	"sandveil": {
 		desc: "If Sandstorm is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Sandstorm.",
 		shortDesc: "If Sandstorm is active, this Pokemon's evasiveness is 1.25x; immunity to Sandstorm.",
+		onModifyDef(def, pokemon) {
+			if (this.field.isWeather('sandstorm')) {
+				return this.chainModify(2);
+			}
+		},
 		onImmunity(type, pokemon) {
 			if (type === 'sandstorm') return false;
 		},
-		onModifyAccuracy(accuracy) {
-			if (typeof accuracy !== 'number') return;
+		onModifySpD(spd, pokemon) {
 			if (this.field.isWeather('sandstorm')) {
-				this.debug('Sand Veil - decreasing accuracy');
-				return accuracy * 0.8;
+				return this.chainModify(2);
 			}
+		},
+		onImmunity(type, pokemon) {
+			if (type === 'sandstorm') return false;
 		},
 		id: "sandveil",
 		name: "Sand Veil",
