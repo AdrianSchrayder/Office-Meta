@@ -1488,6 +1488,13 @@ let BattleAbilities = {
 	},
 	"illuminate": {
 		shortDesc: "No competitive use.",
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.activeTurns) {
+				this.boost({accuracy: 1});
+			}
+		},
 		id: "illuminate",
 		name: "Illuminate",
 		rating: 0,
