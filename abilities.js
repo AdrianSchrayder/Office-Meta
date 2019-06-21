@@ -4144,7 +4144,7 @@ let BattleAbilities = {
 		rating: -1,
 		num: 161,
 	},
-
+	
 	// CAP
 	"mountaineer": {
 		shortDesc: "On switch-in, this Pokemon avoids all Rock-type attacks and Stealth Rock.",
@@ -4210,6 +4210,17 @@ let BattleAbilities = {
 		rating: 3.5,
 		num: -4,
 	},
-};
+	// Office Meta
+	/* Make sure you follow this format
+	"abilityname": {
+		desc: "Long description of ability that details everything.",
+		shortDesc: "short description",
+		<Insert Code Here>,
+		id: "abilityname",
+		name: "Ability Name",
+		rating: X,
+		num: -X,
+	},
+	*/
 
 exports.BattleAbilities = BattleAbilities;
