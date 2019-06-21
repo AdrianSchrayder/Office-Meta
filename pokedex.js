@@ -5807,7 +5807,7 @@ let BattlePokedex = {
 		baseSpecies: "Absol",
 		forme: "Mega",
 		formeLetter: "M",
-		types: ["Dark"],
+		types: ["Dark", "Fairy"],
 		baseStats: {hp: 70, atk: 160, def: 90, spa: 70, spd: 90, spe: 120},
 		abilities: {0: "Magic Bounce"},
 		heightm: 1.2,
