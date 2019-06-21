@@ -6732,7 +6732,7 @@ let BattlePokedex = {
 		species: "Mothim",
 		types: ["Bug", "Flying"],
 		gender: "M",
-		baseStats: {hp: 70, atk: 94, def: 50, spa: 94, spd: 50, spe: 66},
+		baseStats: {hp: 70, atk: 104, def: 80, spa: 104, spd: 80, spe: 96},
 		abilities: {0: "Swarm", H: "Tinted Lens"},
 		heightm: 0.9,
 		weightkg: 23.3,
