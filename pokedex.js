@@ -3386,7 +3386,7 @@ let BattlePokedex = {
 		num: 195,
 		species: "Quagsire",
 		types: ["Water", "Ground"],
-		baseStats: {hp: 95, atk: 85, def: 85, spa: 65, spd: 65, spe: 35},
+		baseStats: {hp: 115, atk: 95, def: 95, spa: 85, spd: 85, spe: 35},
 		abilities: {0: "Damp", 1: "Water Absorb", H: "Unaware"},
 		heightm: 1.4,
 		weightkg: 75,
