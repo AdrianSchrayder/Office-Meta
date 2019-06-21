@@ -4368,7 +4368,7 @@ let BattlePokedex = {
 		num: 262,
 		species: "Mightyena",
 		types: ["Dark"],
-		baseStats: {hp: 70, atk: 90, def: 70, spa: 60, spd: 60, spe: 70},
+		baseStats: {hp: 90, atk: 110, def: 90, spa: 80, spd: 80, spe: 90},
 		abilities: {0: "Intimidate", 1: "Quick Feet", H: "Moxie"},
 		heightm: 1,
 		weightkg: 37,
