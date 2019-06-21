@@ -1,5 +1,5 @@
 onSwitchIn: function (pokemon) {
-       let changed = {'Arbok':true, 'Volbeat':true, 'Illumise':true, 'Milotic':true, 'Tropius':true, 'Cherrim-Sunshine':true, 'Aromatisse':true};
+       let changed = {'Arbok':true, 'Volbeat':true, 'Illumise':true, 'Milotic':true, 'Tropius':true, 'Luxray':true, 'Cherrim-Sunshine':true, 'Aromatisse':true};
        let bt = pokemon.baseTemplate;
        if (bt.baseSpecies in changed || (bt.actualSpecies && bt.actualSpecies in changed)) {
          let types = bt.types;
