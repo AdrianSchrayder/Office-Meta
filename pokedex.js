@@ -182,7 +182,7 @@ let BattlePokedex = {
 		baseSpecies: "Blastoise",
 		forme: "Mega",
 		formeLetter: "M",
-		types: ["Water"],
+		types: ["Water", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 79, atk: 103, def: 120, spa: 135, spd: 115, spe: 78},
 		abilities: {0: "Mega Launcher"},
@@ -5777,7 +5777,7 @@ let BattlePokedex = {
 	chimecho: {
 		num: 358,
 		species: "Chimecho",
-		types: ["Psychic"],
+		types: ["Fairy", "Steel"],
 		baseStats: {hp: 75, atk: 50, def: 80, spa: 95, spd: 90, spe: 65},
 		abilities: {0: "Levitate"},
 		heightm: 0.6,
