@@ -1326,7 +1326,7 @@ let BattlePokedex = {
 		species: "Poliwrath",
 		types: ["Water", "Fighting"],
 		baseStats: {hp: 90, atk: 105, def: 95, spa: 105, spd: 95, spe: 70},
-		abilities: {0: "Water Absorb", 1: "Damp", H: "Swift Swim"},
+		abilities: {0: "Water Absorb", 1: "Sheer Force", H: "Swift Swim"},
 		heightm: 1.3,
 		weightkg: 54,
 		color: "Blue",
