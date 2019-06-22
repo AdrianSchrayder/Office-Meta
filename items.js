@@ -2699,6 +2699,12 @@ let BattleItems = {
 		fling: {
 			basePower: 100,
 		},
+		onModifySpAPriority: 1,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.baseTemplate.baseSpecies === 'Tyrantrum') {
+				return this.chainModify(2);
+			}
+		},
 		num: 710,
 		gen: 6,
 		desc: "Can be revived into Tyrunt.",
@@ -4985,6 +4991,12 @@ let BattleItems = {
 		id: "sailfossil",
 		name: "Sail Fossil",
 		spritenum: 695,
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.baseTemplate.baseSpecies === 'Aurorus') {
+				return this.chainModify(2);
+			}
+		},
 		fling: {
 			basePower: 100,
 		},
