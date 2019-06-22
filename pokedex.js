@@ -1818,7 +1818,7 @@ let BattlePokedex = {
 		num: 91,
 		species: "Cloyster",
 		types: ["Water", "Ice"],
-		baseStats: {hp: 70, atk: 95, def: 180, spa: 85, spd: 140, spe: 70},
+		baseStats: {hp: 70, atk: 95, def: 180, spa: 85, spd: 70, spe: 70},
 		abilities: {0: "Shell Armor", 1: "Skill Link", H: "Overcoat"},
 		heightm: 1.5,
 		weightkg: 132.5,
