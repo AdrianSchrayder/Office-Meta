@@ -1189,6 +1189,7 @@ let BattleAbilities = {
 				if (!target || target.fainted) continue;
 				if (target.item) {
 					this.add('-item', target, target.getItem().name, '[from] ability: Frisk', '[of] ' + pokemon, '[identify]');
+					this.boost({atk: 1});
 				}
 			}
 		},
