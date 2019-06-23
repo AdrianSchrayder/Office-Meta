@@ -6772,7 +6772,7 @@ let BattlePokedex = {
 		num: 417,
 		species: "Pachirisu",
 		types: ["Electric"],
-		baseStats: {hp: 60, atk: 45, def: 70, spa: 45, spd: 90, spe: 95},
+		baseStats: {hp: 60, atk: 45, def: 100, spa: 95, spd: 100, spe: 95},
 		abilities: {0: "Run Away", 1: "Pickup", H: "Volt Absorb"},
 		heightm: 0.4,
 		weightkg: 3.9,
