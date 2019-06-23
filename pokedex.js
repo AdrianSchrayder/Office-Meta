@@ -8452,7 +8452,7 @@ let BattlePokedex = {
 		num: 510,
 		species: "Liepard",
 		types: ["Dark"],
-		baseStats: {hp: 64, atk: 88, def: 50, spa: 88, spd: 50, spe: 106},
+		baseStats: {hp: 64, atk: 108, def: 60, spa: 108, spd: 60, spe: 106},
 		abilities: {0: "Limber", 1: "Unburden", H: "Prankster"},
 		heightm: 1.1,
 		weightkg: 37.5,
