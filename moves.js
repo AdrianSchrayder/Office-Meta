@@ -4895,8 +4895,8 @@ let BattleMovedex = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, mystery: 1, dance: 1},
 		boosts: {
-			atk: -2,
-			spa: -2,
+			atk: -1,
+			spa: -1,
 		},
 		secondary: null,
 		target: "normal",
