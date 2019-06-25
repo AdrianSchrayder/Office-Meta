@@ -1226,6 +1226,10 @@ let BattleAbilities = {
 		onModifyDef(def) {
 			return this.chainModify(2);
 		},
+		onModifySpDPriority: 6,
+		onModifySpD(spd) {
+			return this.chainModify(1.5);
+		},
 		id: "furcoat",
 		name: "Fur Coat",
 		rating: 3.5,
