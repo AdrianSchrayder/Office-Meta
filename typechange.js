@@ -1,5 +1,5 @@
 onSwitchIn: function (pokemon) {
-       let changed = {'Blastoise':true, 'Blastoise-Mega':true, 'Chimecho': true, 'Arbok':true, 'Meganium':true, 'Feraligatr':true, 'Sunfora':true, 'Granbull':true, 'Ursaring':true, 'Bellossom':true, 'Noctowl':true,'Masquerain':true, 'Ninjask':true, 'Delcatty':true, 'Volbeat':true, 'Illumise':true, 'Zangoose':true, 'Seviper':true, 'Absol-Mega':true, 'Luvdisc':true, 'Milotic':true, 'Tropius':true, 'Flygon':true, 'Solrock':true, 'Luxray':true, 'Cherrim-Sunshine':true, 'Aromatisse':true};
+       let changed = {'Blastoise':true, 'Blastoise-Mega':true, 'Chimecho': true, 'Arbok':true, 'Meganium':true, 'Feraligatr':true, 'Sunfora':true, 'Granbull':true, 'Ursaring':true, 'Bellossom':true, 'Noctowl':true,'Masquerain':true, 'Ninjask':true, 'Delcatty':true, 'Volbeat':true, 'Illumise':true, 'Zangoose':true, 'Seviper':true, 'Absol-Mega':true, 'Luvdisc':true, 'Milotic':true, 'Tropius':true, 'Flygon':true, 'Solrock':true, 'Staraptor':true, 'Luxray':true, 'Cherrim-Sunshine':true, 'Aromatisse':true};
        let bt = pokemon.baseTemplate;
        if (bt.baseSpecies in changed || (bt.actualSpecies && bt.actualSpecies in changed)) {
          let types = bt.types;
