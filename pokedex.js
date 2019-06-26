@@ -2329,7 +2329,7 @@ let BattlePokedex = {
 		species: "Jynx",
 		types: ["Ice", "Psychic"],
 		gender: "F",
-		baseStats: {hp: 65, atk: 50, def: 35, spa: 115, spd: 95, spe: 95},
+		baseStats: {hp: 65, atk: 50, def: 65, spa: 135, spd: 115, spe: 115},
 		abilities: {0: "Oblivious", 1: "Forewarn", H: "Dry Skin"},
 		heightm: 1.4,
 		weightkg: 40.6,
