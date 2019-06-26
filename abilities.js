@@ -152,8 +152,8 @@ let BattleAbilities = {
 					const moveType = move.id === 'hiddenpower' ? target.hpType : move.type;
 					if (move.category !== 'Status' && (this.getImmunity(moveType, pokemon) && this.getEffectiveness(moveType, pokemon) > 0 || move.ohko)) {
 						this.add('-ability', pokemon, 'Anticipation');
-						this.boost({atk: 1});
-						this.boost({spa: 1});
+						this.boost({atk: -1}, target, pokemon);
+						this.boost({spa: -1}, target, pokemon);
 						return;
 					}
 				}
@@ -4255,5 +4255,5 @@ let BattleAbilities = {
 		num: -X,
 	},
 	*/
-
+};
 exports.BattleAbilities = BattleAbilities;
